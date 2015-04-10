@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vitorvarandas/Documents/Calculadora/BIRcalculator/root/src/binary_tree.hpp
+iostream
+-
+string
+-
+math.h
+-
+sstream
+-
+stdlib.h
+-
+
+/Users/vitorvarandas/Documents/Calculadora/BIRcalculator/root/src/main.cpp
+iostream
+-
+string
+-
+math.h
+-
+sstream
+-
+stdlib.h
+-
+binary_tree.hpp
+/Users/vitorvarandas/Documents/Calculadora/BIRcalculator/root/src/binary_tree.hpp
+
