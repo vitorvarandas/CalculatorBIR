@@ -11,12 +11,14 @@
 #include <sstream>
 #include <stdlib.h>
 #include "binary_tree.hpp"
+#include "evaluate.hpp"
 
 int main(){
 	//std::stack<Binary_tree> nodestack;
 	//std::stack<std::string> opstack;
 	//std::string tempstring;
 
+    evaluate obj;
 
 	//tempstring = 345**;
 	Binary_tree etree;
@@ -28,6 +30,7 @@ int main(){
 	root = etree.insert(root,"2");
 	std::cout << "Postfix traversal: ";
 	etree.print(root);
+    obj.evaluatetree(root);
 
 
 }
