@@ -12,9 +12,10 @@ TARGET = interface
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        calculatorbir.cpp
+SOURCES += main.cpp \
+    interface.cpp
 
-HEADERS  += calculatorbir.h
+HEADERS  += \
+    interface.h
 
 FORMS    += calculatorbir.ui
