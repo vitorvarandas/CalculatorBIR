@@ -11,7 +11,7 @@
 #include <sstream>
 #include <stdlib.h>
 #include "binary_tree.hpp"
-#include "evaluate.hpp"
+#include "binary_tree.cpp"
 #include "Sintax.hpp"
 #include "Sintax.cpp"
 
@@ -23,8 +23,8 @@ int main(){
     evaluate obj;
 
 	//tempstring = 345**;
-	Binary_tree etree;
-	Node_type *root=NULL;
+	Binarytree etree;
+	Nodetype *root=NULL;
 	root = etree.insert(root,"+");
 	root = etree.insert(root,"*");
 	root = etree.insert(root,"4");
