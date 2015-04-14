@@ -12,6 +12,8 @@
 #include <stdlib.h>
 #include "binary_tree.hpp"
 #include "evaluate.hpp"
+#include "Sintax.hpp"
+#include "Sintax.cpp"
 
 int main(){
 	//std::stack<Binary_tree> nodestack;
@@ -32,7 +34,11 @@ int main(){
 	etree.print(root);
     obj.evaluatetree(root);
 
+// This is the way that we call the sintax, it will return us 1 for true, and the kind of error when it is not true 0
 
+    Sintax expression;
+    bool example = expression.general_sintax_error("3+5*7");
+    cout << "" << example << endl;
 }
 
 
