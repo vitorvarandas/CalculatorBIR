@@ -11,6 +11,7 @@
 #include <sstream>
 #include <stdlib.h>
 #include "binary_tree.hpp"
+#include "binary_tree.cpp"
 
 int main(){
 	//std::stack<Binary_tree> nodestack;
@@ -19,8 +20,8 @@ int main(){
 
 
 	//tempstring = 345**;
-	Binary_tree etree;
-	Node_type *root=NULL;
+	Binarytree etree;
+	Nodetype *root=NULL;
 	root = etree.insert(root,"+");
 	root = etree.insert(root,"*");
 	root = etree.insert(root,"4");
