@@ -12,6 +12,7 @@
 #include <stdlib.h>
 #include "binary_tree.hpp"
 #include "binary_tree.cpp"
+#include "evaluate.hpp"
 
 int main(){
 	//std::stack<Binary_tree> nodestack;
@@ -20,17 +21,35 @@ int main(){
 
 
 	//tempstring = 345**;
+	evaluate eval;
 	Binarytree etree;
 	Nodetype *root=NULL;
-	root = etree.insert(root,"+");
-	root = etree.insert(root,"*");
+//	checkInsert = false;
+//	root = etree.insert(root,"+");
+//	checkInsert = false;
+//	root = etree.insert(root,"/");
+//	checkInsert = false;
+//	root = etree.insert(root,"1");
+//	checkInsert = false;
+//	root = etree.insert(root,"2");
+//	checkInsert = false;
+//	root = etree.insert(root,"-");
+//	checkInsert = false;
+//	root = etree.insert(root,"3");
+//	checkInsert = false;
+	root = etree.insert(root,"-");
+	checkInsert = false;
+	root = etree.insert(root,"18");
+	checkInsert = false;
+	root = etree.insert(root,"-");
+	checkInsert = false;
+	root = etree.insert(root,"12");
+	checkInsert = false;
 	root = etree.insert(root,"4");
-	root = etree.insert(root,"3");
-	root = etree.insert(root,"2");
-	std::cout << "Postfix traversal: ";
+	std::cout << "Postfix traversal: "<<std::endl;
 	etree.print(root);
-
-
+	eval.evaluatetree(root);
+	std::cout << " \n Result: " << root->data << std::endl;
 }
 
 
