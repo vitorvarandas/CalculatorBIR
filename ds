@@ -1,0 +1,68 @@
+[33mcommit 6ca11229e66ce96d5d2fe9a72209650b151487ec[m
+Merge: c3417d8 4002e73
+Author: pedro <pedrombat@hotmail.com>
+Date:   Tue Apr 14 13:10:41 2015 -0300
+
+    Merge branch 'master' of https://github.com/pedrombat/CalculatorBIR
+
+[33mcommit c3417d8babe1846cf69f5adda34a92860505d138[m
+Author: pedro <pedrombat@hotmail.com>
+Date:   Mon Apr 13 20:05:43 2015 -0300
+
+    	Interface criada já com os botões
+    
+    	Já tem a função de limpar, de backspace.
+
+[33mcommit 4002e735ba904fbd86e3e1aae1058be982c5879d[m
+Merge: 39c860d c1bedfd
+Author: pedrombat <pedrombat@hotmail.com>
+Date:   Mon Apr 13 15:29:41 2015 -0300
+
+    Merge pull request #2 from gknittel/evaluate
+    
+    Evaluate
+
+[33mcommit c1bedfdc638dcc8dc16c1c7a7e166d65f97317ac[m
+Author: Gustavo Knittel <gugakm22@gmail.com>
+Date:   Mon Apr 13 15:24:34 2015 -0300
+
+    versao 1 evaluate
+
+[33mcommit 40298139f589b7f046a023a22d9b62fce247a55c[m
+Author: Gustavo Knittel <gugakm22@gmail.com>
+Date:   Mon Apr 13 15:19:51 2015 -0300
+
+    versao 1 do evaluatec
+
+[33mcommit 80056d1a647130ad93fa7ddabdd915853e12bd13[m
+Author: Gustavo Knittel <gugakm22@gmail.com>
+Date:   Mon Apr 13 15:05:07 2015 -0300
+
+    versao 1 do evaluate
+
+[33mcommit 8e7ab9f21282882e6d153af38daa1563d74579a6[m
+Author: Gustavo Knittel <gugakm22@gmail.com>
+Date:   Fri Apr 10 16:46:35 2015 -0300
+
+    	Creating the program to evaluate the tree.
+
+[33mcommit 39c860d5ac0ff8ed083bc2d866199b9817ab2535[m
+Merge: fd9dc74 36b0298
+Author: pedrombat <pedrombat@hotmail.com>
+Date:   Fri Apr 10 16:24:10 2015 -0300
+
+    Merge pull request #1 from vitorvarandas/binary_tree
+    
+    versao 1 binary_tree
+
+[33mcommit 36b02982615733261b968244c45640b73c5dc86f[m
+Author: vitorvarandas <vitorvarandas@Vitors-MacBook-Pro.local>
+Date:   Fri Apr 10 16:14:49 2015 -0300
+
+    versao 1 binary_tree
+
+[33mcommit fd9dc749778500c503cb536d4a343822f25269be[m
+Author: pedro <pedrombat@hotmail.com>
+Date:   Tue Apr 7 18:22:50 2015 -0300
+
+    	Criando os arquivos da interface

@@ -1,9 +1,19 @@
 #include "interface.h"
 #include "ui_calculatorbir.h"
-
 #include <iostream>
 #include <stdio.h>
 #include <string>
+#include <QApplication>
+
+int open_interface(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+    CalculatorInterface w;
+    w.show();
+
+    return a.exec();
+}
+
 
 CalculatorInterface::CalculatorInterface(QWidget *parent) :
     QMainWindow(parent),
@@ -193,6 +203,17 @@ void CalculatorInterface::on_Button_Backspace_clicked()
     ui->LCD->setText(backspace.c_str());
 }
 
+void CalculatorInterface::EraseLCDAfterError()
+{
+    std::string error=ui->LCD->text().toStdString();
+
+    if(error == "SINTAX ERROR" || error == "Division by zero is undefined")
+    {
+        ui->LCD->setText("");
+
+    }
+}
+
 void CalculatorInterface::on_Button_Equal_clicked()
 {
     EraseLCDAfterError();
@@ -204,16 +225,8 @@ void CalculatorInterface::on_Button_Equal_clicked()
 
 
    // ui->LCD->setText(MakeCalculation(solving));
+
 }
 
 
-void CalculatorInterface::EraseLCDAfterError()
-{
-    std::string error=ui->LCD->text().toStdString();
 
-    if(error == "SINTAX ERROR" || error == "Division by zero is undefined")
-    {
-        ui->LCD->setText("");
-
-    }
-}

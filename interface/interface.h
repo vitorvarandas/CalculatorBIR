@@ -5,6 +5,8 @@
 
 
 
+int open_interface(int argc, char *argv[]);
+
 namespace Ui {
 class CalculatorInterface;
 }
