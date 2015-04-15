@@ -2,3 +2,4 @@ build/
 bin/
 *.log
 CMakeFiles/
+build-interface-Desktop-Debug/
